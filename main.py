@@ -42,7 +42,6 @@ def init(path):
         
         labels = [values['Continente'] for values in continents]
         values = [values['Poblacion Mundial'] for values in continents]
-        print(continents)
         generate_pie_chart(labels, values)
 
 if __name__ == '__main__':
